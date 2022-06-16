@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Trip Sans';
+    src: url('TripSans-Regular.eot');
+    src: url('TripSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TripSans-Regular.woff2') format('woff2'),
+        url('TripSans-Regular.woff') format('woff'),
+        url('TripSans-Regular.ttf') format('truetype'),
+        url('TripSans-Regular.svg#TripSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '.';
+    src: url('09a6a9f010e1dae1c6789aab479906a1.eot');
+    src: url('09a6a9f010e1dae1c6789aab479906a1.eot?#iefix') format('embedded-opentype'),
+        url('09a6a9f010e1dae1c6789aab479906a1.woff2') format('woff2'),
+        url('09a6a9f010e1dae1c6789aab479906a1.woff') format('woff'),
+        url('09a6a9f010e1dae1c6789aab479906a1.ttf') format('truetype'),
+        url('09a6a9f010e1dae1c6789aab479906a1.svg#.') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/0c6a1cff0e.js" crossorigin="anonymous"></script>
+    <title>Tripadvisor</title>
+</head>
+
+<body>
+    <header class="container">
+
+        <div class="header">
+            <div class="header__logo">
+                <a href="/"><img src="./assets/img/logo.svg" alt="logo" /></a>
+                <!-- end of logo -->
+                <div class="box">
+                    <form method="post" action="page.php">
+                        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                        <input type="text" name="search" />
+                    </form>
+                </div>
+                <!-- end of box -->
+            </div>
+            <!-- end of header__logo -->
+            <nav>
+                <div class="header__nav">
+                    <div class="header__list">
+                        <a href="/"><i class="fa-solid fa-pen"></i>Avis</a>
+                        <a href="/"><i class="fa-regular fa-heart"></i>Voyages</a>
+                        <a href="/"><i class="fa-regular fa-bell"></i>Alertes</a>
+                    </div>
+                    <div class="sing_in">
+                        <button><a href="login.html">Connectez-vous</a></button>
+                    </div>
+                </div>
+                <!-- end of header -->
+        </div>
+        <!-- end of container -->
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!--Main-->
+    <main class="container">
+        <section>
+            <h1><span>Explorez </span>Paris</h1>
+
+            <nav class="main__nav">
+                <div class="explorer">Hotels<i class="fa-solid fa-bed"></i></div>
+                <div class="explorer">Activités<i class="fa-solid fa-book"></i></div>
+                <div class="explorer">Forums de voyage<i class="fa-solid fa-comment"></i></div>
+                <div class="explorer">Croisières<i class="fa-solid fa-ship"></i></div>
+                <div class="explorer">Activités<i class="fa-solid fa-book"></i></div>
+                <div class="explorer hidden">Forums de voyage<i class="fa-solid fa-comment"></i></div>
+                <div class="explorer hidden">Croisières<i class="fa-solid fa-ship"></i></div>
+                <div class="explorer">Plus<i class="fa-solid fa-ellipsis"></i></div>
+            </nav>
+
+            <div class="images">
+                <img src="./assets/img/paris_1.png" alt="photo de Paris" />
+                <a href="#">
+                    <i class="fa-regular fa-image"></i> Toutes les photos
+                </a>
+                <div class="images-group">
+                    <img src="./assets/img/paris_2.png" alt="photo de Paris" />
+                    <img src="./assets/img/paris_3.png" alt="photo de Paris" />
+                </div>
+            </div>
+
+            <div class="links">
+                <div class="pagination">
+                    <a href="#">Europe </a>
+                    <span>> </span>
+                    <a href="#">France </a>
+                    <span>> </span>
+                    <a href="#">Ile-de-France </a>
+                    <span>></span>
+                    <a href="Paris">Paris</a>
+                </div>
+                <div class="tour">
+                    <a>Visiter : Paris</a>
+                </div>
+            </div>
+
+            <div class="main__description">
+                <div class="description">
+                    <h2>La Ville Lumière éblouit en tous points</h2>
+                    <p>
+                        Aucun autre endroit au monde ne fait autant rêver que Paris. La
+                        ville séduit par son art, son architecture, sa culture et sa
+                        cuisine, mais il y a aussi des merveilles plus discrètes qui
+                        n’attendent qu’à être explorées: les ruelles pavées pittoresques,
+                        les pâtisseries au coin de la rue et les petits bistrots douillets
+                        qui vous invitent à boire un verre de beaujolais. Préparez-vous à
+                        vous approprier Paris.
+                    </p>
+                </div>
+                <div class="main__card">
+                    <div class="card__organisation">
+                        <h2>Paris : commencez à organiser !</h2>
+                        <p>
+                            Créez un voyage pour enregistrer et organiser toutes vos idées
+                            et les visualiser sur une carte
+                        </p>
+                        <a href="#">Créez un voyage</a>
+                    </div>
+                    <div class="card__map">
+                        <img src="./assets/img/maps.png" alt="paris" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Paris : les immanquables</h2>
+            <div class="carousel">
+                <div class="bloc__text">
+                    <h3>Se divertir</h3>
+                    <p>
+                        Des lieux à voir, des rues à explorer et des expériences
+                        emblématiques à Paris.
+                    </p>
+                    <a href="#">Tout afficher</a>
+                </div>
+
+                <div class="carousel__container">
+
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                        </div>
+
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                        </div>
+
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                        </div>
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                        </div>
+
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                        </div>
+
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bloc__carousel">
+                        <div class="carousel__thumb">
+                            <img src="./assets/img/eiffeltoren.png" alt="tour Eiffel" />
+                            <div class="arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="card__icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="card__body">
+                            <div class="card__title">
+                                <h4>Tour Effeil</h4>
+                            </div>
+                            <div class="card__notation">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                <i class="fa-regular fa-circle"></i>
+                                <span>140866</span>
+                            </div>
+                            <p>
+                                Tours et plateformes d'observation, Monuments & Points
+                                d'intérêt
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="./assets/img/Tripadvisor_logo.svg" alt="logo" />
+                <div class="footer__text">
+                    <p>© 2022 - Tous droits réservés</p>
+
+                    <div class="liens">
+                        <span><a href="#">Conditions d'utilisation</a></span>
+                        <span><a href="#">Confidentialité et utilisation des cookies</a></span><br />
+                        <span><a href="#">Accord d'utilisation des cookies</a></span>
+                        <span><a href="#">Plan du site</a></span>
+                        <span><a href="#">Fonctionnement du site</a></span>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Cette version de notre site internet s'adresse aux personnes parlant
+                français en France. Si vous habitez un autre pays ou une autre région,
+                merci de choisir la version de Tripadvisor appropriée pour votre pays
+                ou région dans le menu déroulant.
+            </p>
+            <!--<p>
+          TripAdvisor LLC ne garantit pas la disponibilité des prix affichés sur
+          nos sites et applications. Des conditions et restrictions telles que,
+          entre autres, des durées de voyage imposées ou des dates de fermeture
+          peuvent s'appliquer. TripAdvisor LLC n'est pas responsable du contenu
+          d'autres sites internet qui n'appartiennent pas ou ne sont pas opérés
+          par Tripadvisor. TripAdvisor LLC n'est ni un agent de réservation ni
+          un tour opérateur. Lorsque vous réservez auprès de nos partenaires,
+          consultez leur site pour connaître tous les frais applicables.
+        </p>-->
+        </div>
+    </footer>
+
+</body>
+
+</html>
